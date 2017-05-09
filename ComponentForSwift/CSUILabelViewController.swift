@@ -33,6 +33,13 @@ class CSUILabelViewController: UIViewController {
                 label.textAlignment = NSTextAlignment.left
                 label.text = "这是一个自定义label,这是一个基础label"
                 label.numberOfLines = 0
+            case 3:
+                let tips : NSString = "This is a label,这是一个基础label This is a label,这是一个基础label"
+                let tipsSize : CGSize = tips.boundingRect(with: CGSize.init(width: 150, height: 1000), options: [NSStringDrawingOptions.usesFontLeading,NSStringDrawingOptions.usesLineFragmentOrigin], attributes: [NSFontAttributeName:UIFont.systemFont(ofSize: 12)], context: nil).size
+                label.setKheight(height: tipsSize.height)
+                label.font = UIFont.systemFont(ofSize: 12)
+                label.text = tips as String
+                label.numberOfLines = 0
                 
             default:
                 break
