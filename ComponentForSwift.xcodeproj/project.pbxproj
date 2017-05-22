@@ -17,6 +17,8 @@
 		24343A5B1EC15DBB00921A1A /* UIView+Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24343A5A1EC15DBB00921A1A /* UIView+Frame.swift */; };
 		24343A5F1EC19BD200921A1A /* CSUILabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24343A5E1EC19BD200921A1A /* CSUILabelViewController.swift */; };
 		24343A611EC19C6300921A1A /* CSUIViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24343A601EC19C6300921A1A /* CSUIViewViewController.swift */; };
+		2486F8171ECEDC3A0039C6F5 /* CSEnumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2486F8161ECEDC3A0039C6F5 /* CSEnumViewController.swift */; };
+		2486F8191ECEECA80039C6F5 /* CSBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2486F8181ECEECA80039C6F5 /* CSBaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		24343A5A1EC15DBB00921A1A /* UIView+Frame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Frame.swift"; sourceTree = "<group>"; };
 		24343A5E1EC19BD200921A1A /* CSUILabelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSUILabelViewController.swift; sourceTree = "<group>"; };
 		24343A601EC19C6300921A1A /* CSUIViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSUIViewViewController.swift; sourceTree = "<group>"; };
+		2486F8161ECEDC3A0039C6F5 /* CSEnumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSEnumViewController.swift; path = Extension/CSEnumViewController.swift; sourceTree = "<group>"; };
+		2486F8181ECEECA80039C6F5 /* CSBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSBaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,10 +112,12 @@
 				24343A561EC1566500921A1A /* CSMainViewController.swift */,
 				24343A601EC19C6300921A1A /* CSUIViewViewController.swift */,
 				24343A5E1EC19BD200921A1A /* CSUILabelViewController.swift */,
+				2486F8161ECEDC3A0039C6F5 /* CSEnumViewController.swift */,
 				24343A2A1EC0A1E700921A1A /* Main.storyboard */,
 				24343A2D1EC0A1E700921A1A /* Assets.xcassets */,
 				24343A2F1EC0A1E700921A1A /* LaunchScreen.storyboard */,
 				24343A321EC0A1E700921A1A /* Info.plist */,
+				2486F8181ECEECA80039C6F5 /* CSBaseViewController.swift */,
 			);
 			path = ComponentForSwift;
 			sourceTree = "<group>";
@@ -290,6 +296,8 @@
 				24343A611EC19C6300921A1A /* CSUIViewViewController.swift in Sources */,
 				24343A5F1EC19BD200921A1A /* CSUILabelViewController.swift in Sources */,
 				24343A271EC0A1E700921A1A /* AppDelegate.swift in Sources */,
+				2486F8191ECEECA80039C6F5 /* CSBaseViewController.swift in Sources */,
+				2486F8171ECEDC3A0039C6F5 /* CSEnumViewController.swift in Sources */,
 				24343A571EC1566500921A1A /* CSMainViewController.swift in Sources */,
 				24343A5B1EC15DBB00921A1A /* UIView+Frame.swift in Sources */,
 			);
@@ -542,6 +550,7 @@
 				24343A4D1EC0A1E700921A1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		24343A4E1EC0A1E700921A1A /* Build configuration list for PBXNativeTarget "ComponentForSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -550,6 +559,7 @@
 				24343A501EC0A1E700921A1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		24343A511EC0A1E700921A1A /* Build configuration list for PBXNativeTarget "ComponentForSwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -558,6 +568,7 @@
 				24343A531EC0A1E700921A1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
