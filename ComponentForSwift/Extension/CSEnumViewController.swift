@@ -26,6 +26,8 @@ class CSEnumViewController: CSBaseViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        let topDiredtion = CSDirection(rawValue: 0)
+        print(topDiredtion!)
         
         let direction = CSDirection.top
         switch direction {
