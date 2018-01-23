@@ -21,7 +21,7 @@ class CSUILabelViewController: UIViewController {
         
         self.view.backgroundColor = UIColor.white
         
-        for i in 1...3 {
+        for i in 1...4 {
             let label = UILabel.init(frame: CGRect.init(x: 10, y: 50 + i * 40, width: 150, height: 30))
             
             switch i {
@@ -34,12 +34,25 @@ class CSUILabelViewController: UIViewController {
                 label.text = "这是一个自定义label,这是一个基础label"
                 label.numberOfLines = 0
             case 3:
+                
                 let tips : NSString = "This is a label,这是一个基础label This is a label,这是一个基础label"
-                let tipsSize : CGSize = tips.boundingRect(with: CGSize.init(width: 150, height: 1000), options: [NSStringDrawingOptions.usesFontLeading,NSStringDrawingOptions.usesLineFragmentOrigin], attributes: [NSAttributedStringKey.font:UIFont.systemFont(ofSize: 12)], context: nil).size
+                let tipsSize : CGSize = tips.boundingRect(with: CGSize.init(width: 150, height: 1000), options: [NSStringDrawingOptions.usesFontLeading,NSStringDrawingOptions.usesLineFragmentOrigin], attributes: [NSAttributedStringKey.font:UIFont.systemFont(ofSize: 12),], context: nil).size
                 label.setKheight(height: tipsSize.height)
                 label.font = UIFont.systemFont(ofSize: 12)
                 label.text = tips as String
                 label.numberOfLines = 0
+            case 4:
+                let font = UIFont.systemFont(ofSize: 12)
+                let paragraphStyle = NSMutableParagraphStyle.init()
+                paragraphStyle.lineSpacing = font.pointSize * 0.4
+                
+                let attributeString = NSMutableAttributedString.init(string: "这是一个attributeLabel,可以设置行高 it can set line height.", attributes: [NSAttributedStringKey.font:font,NSAttributedStringKey.paragraphStyle:paragraphStyle]);
+                
+                let tipsSize = attributeString.boundingRect(with: CGSize.init(width: label.kwidth, height: CGFloat(MAXFLOAT)), options: [NSStringDrawingOptions.usesFontLeading , NSStringDrawingOptions.usesLineFragmentOrigin], context: nil)
+                label.setKheight(height: tipsSize.height)
+                label.numberOfLines = 0
+                label.font = font;
+                label.attributedText = attributeString;
                 
             default:
                 break

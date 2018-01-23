@@ -55,7 +55,7 @@
 		24343A5A1EC15DBB00921A1A /* UIView+Frame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Frame.swift"; sourceTree = "<group>"; };
 		24343A5E1EC19BD200921A1A /* CSUILabelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSUILabelViewController.swift; sourceTree = "<group>"; };
 		24343A601EC19C6300921A1A /* CSUIViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSUIViewViewController.swift; sourceTree = "<group>"; };
-		2486F8161ECEDC3A0039C6F5 /* CSEnumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSEnumViewController.swift; path = Extension/CSEnumViewController.swift; sourceTree = "<group>"; };
+		2486F8161ECEDC3A0039C6F5 /* CSEnumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSEnumViewController.swift; sourceTree = "<group>"; };
 		2486F8181ECEECA80039C6F5 /* CSBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSBaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,11 +108,10 @@
 			isa = PBXGroup;
 			children = (
 				24343A581EC15CAE00921A1A /* Extension */,
-				24343A261EC0A1E700921A1A /* AppDelegate.swift */,
+				243A7E0A20172FCA009ED45A /* UIKit */,
+				243A7E0B20172FED009ED45A /* Grammer */,
 				24343A561EC1566500921A1A /* CSMainViewController.swift */,
-				24343A601EC19C6300921A1A /* CSUIViewViewController.swift */,
-				24343A5E1EC19BD200921A1A /* CSUILabelViewController.swift */,
-				2486F8161ECEDC3A0039C6F5 /* CSEnumViewController.swift */,
+				24343A261EC0A1E700921A1A /* AppDelegate.swift */,
 				24343A2A1EC0A1E700921A1A /* Main.storyboard */,
 				24343A2D1EC0A1E700921A1A /* Assets.xcassets */,
 				24343A2F1EC0A1E700921A1A /* LaunchScreen.storyboard */,
@@ -154,6 +153,23 @@
 				24343A5A1EC15DBB00921A1A /* UIView+Frame.swift */,
 			);
 			path = UIView;
+			sourceTree = "<group>";
+		};
+		243A7E0A20172FCA009ED45A /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				24343A601EC19C6300921A1A /* CSUIViewViewController.swift */,
+				24343A5E1EC19BD200921A1A /* CSUILabelViewController.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		243A7E0B20172FED009ED45A /* Grammer */ = {
+			isa = PBXGroup;
+			children = (
+				2486F8161ECEDC3A0039C6F5 /* CSEnumViewController.swift */,
+			);
+			path = Grammer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
