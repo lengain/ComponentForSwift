@@ -23,7 +23,15 @@ class CSUITextFidleViewController: UIViewController {
         self.view.addSubview(textField)
 
         
-        
+        let textField2 = UITextField.init(frame: CGRect.init(x: 20, y: 160, width: 300, height: 44))
+        textField2.placeholder = "请输入姓名"
+        textField2.font = UIFont.systemFont(ofSize: 15)
+        textField2.borderStyle = UITextBorderStyle.roundedRect
+        textField2.clearButtonMode = UITextFieldViewMode.always
+        let leftView = UIView.init(frame: CGRect.init(x: 0, y: 0, width: 10, height: 10))
+        textField2.leftView = leftView
+        textField2.leftViewMode = UITextFieldViewMode.always
+        self.view .addSubview(textField2)
         
     }
 
