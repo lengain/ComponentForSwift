@@ -17,6 +17,7 @@ class CSUITextFieldViewController: UIViewController {
         // Do any additional setup after loading the view.
         let textField = UITextField.init(frame: CGRect.init(x: 20, y: 100, width: 300, height: 44))
         textField.placeholder = "请输入姓名"
+        textField.textRect(forBounds: CGRect.init(x: 10, y: 0, width: textField.frame.size.width - 10, height: textField.frame.size.height))
         textField.font = UIFont.systemFont(ofSize: 15)
         textField.borderStyle = UITextBorderStyle.line
         
