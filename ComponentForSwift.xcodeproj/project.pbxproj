@@ -17,9 +17,9 @@
 		24343A5B1EC15DBB00921A1A /* UIView+Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24343A5A1EC15DBB00921A1A /* UIView+Frame.swift */; };
 		24343A5F1EC19BD200921A1A /* CSUILabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24343A5E1EC19BD200921A1A /* CSUILabelViewController.swift */; };
 		24343A611EC19C6300921A1A /* CSUIViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24343A601EC19C6300921A1A /* CSUIViewViewController.swift */; };
-		243A7E112017315B009ED45A /* CSUITextFidleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243A7E102017315B009ED45A /* CSUITextFidleViewController.swift */; };
-		243A7E122017315B009ED45A /* CSUITextFidleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243A7E102017315B009ED45A /* CSUITextFidleViewController.swift */; };
-		243A7E132017315B009ED45A /* CSUITextFidleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243A7E102017315B009ED45A /* CSUITextFidleViewController.swift */; };
+		243A7E112017315B009ED45A /* CSUITextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243A7E102017315B009ED45A /* CSUITextFieldViewController.swift */; };
+		243A7E122017315B009ED45A /* CSUITextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243A7E102017315B009ED45A /* CSUITextFieldViewController.swift */; };
+		243A7E132017315B009ED45A /* CSUITextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243A7E102017315B009ED45A /* CSUITextFieldViewController.swift */; };
 		2486F8171ECEDC3A0039C6F5 /* CSEnumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2486F8161ECEDC3A0039C6F5 /* CSEnumViewController.swift */; };
 		2486F8191ECEECA80039C6F5 /* CSBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2486F8181ECEECA80039C6F5 /* CSBaseViewController.swift */; };
 /* End PBXBuildFile section */
@@ -58,7 +58,7 @@
 		24343A5A1EC15DBB00921A1A /* UIView+Frame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Frame.swift"; sourceTree = "<group>"; };
 		24343A5E1EC19BD200921A1A /* CSUILabelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSUILabelViewController.swift; sourceTree = "<group>"; };
 		24343A601EC19C6300921A1A /* CSUIViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSUIViewViewController.swift; sourceTree = "<group>"; };
-		243A7E102017315B009ED45A /* CSUITextFidleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSUITextFidleViewController.swift; sourceTree = "<group>"; };
+		243A7E102017315B009ED45A /* CSUITextFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSUITextFieldViewController.swift; sourceTree = "<group>"; };
 		2486F8161ECEDC3A0039C6F5 /* CSEnumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSEnumViewController.swift; sourceTree = "<group>"; };
 		2486F8181ECEECA80039C6F5 /* CSBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSBaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -164,7 +164,7 @@
 			children = (
 				24343A601EC19C6300921A1A /* CSUIViewViewController.swift */,
 				24343A5E1EC19BD200921A1A /* CSUILabelViewController.swift */,
-				243A7E102017315B009ED45A /* CSUITextFidleViewController.swift */,
+				243A7E102017315B009ED45A /* CSUITextFieldViewController.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -317,7 +317,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				243A7E112017315B009ED45A /* CSUITextFidleViewController.swift in Sources */,
+				243A7E112017315B009ED45A /* CSUITextFieldViewController.swift in Sources */,
 				24343A611EC19C6300921A1A /* CSUIViewViewController.swift in Sources */,
 				24343A5F1EC19BD200921A1A /* CSUILabelViewController.swift in Sources */,
 				24343A271EC0A1E700921A1A /* AppDelegate.swift in Sources */,
@@ -332,7 +332,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				243A7E122017315B009ED45A /* CSUITextFidleViewController.swift in Sources */,
+				243A7E122017315B009ED45A /* CSUITextFieldViewController.swift in Sources */,
 				24343A3C1EC0A1E700921A1A /* ComponentForSwiftTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,7 +341,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				243A7E132017315B009ED45A /* CSUITextFidleViewController.swift in Sources */,
+				243A7E132017315B009ED45A /* CSUITextFieldViewController.swift in Sources */,
 				24343A471EC0A1E700921A1A /* ComponentForSwiftUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

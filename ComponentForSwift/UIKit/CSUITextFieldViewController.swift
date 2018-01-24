@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CSUITextFidleViewController: UIViewController {
+class CSUITextFieldViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
